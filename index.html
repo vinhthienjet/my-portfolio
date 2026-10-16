@@ -1,0 +1,565 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description"
+          content="Portfolio của Nguyễn Vinh Thiện - Computer Science Student và Software Engineer Intern.">
+
+    <meta name="theme-color" content="#0b1020">
+
+    <title>Nguyễn Vinh Thiện | Developer Portfolio</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+          rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+
+<!-- Background decoration -->
+<div class="background-glow glow-one"></div>
+<div class="background-glow glow-two"></div>
+
+<!-- Header -->
+<header class="header" id="home">
+    <nav class="navbar container">
+
+        <a href="#home" class="logo">
+            <span class="logo-icon">T</span>
+            <span>Thien<span class="accent">.</span></span>
+        </a>
+
+        <button class="menu-toggle"
+                id="menuToggle"
+                aria-label="Mở menu"
+                aria-expanded="false"
+                aria-controls="navMenu">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+
+        <ul class="nav-menu" id="navMenu">
+            <li><a href="#home" class="nav-link active">Trang chủ</a></li>
+            <li><a href="#about" class="nav-link">Giới thiệu</a></li>
+            <li><a href="#skills" class="nav-link">Kỹ năng</a></li>
+            <li><a href="#projects" class="nav-link">Dự án</a></li>
+            <li><a href="#contact" class="nav-link">Liên hệ</a></li>
+        </ul>
+
+        <a href="#contact" class="button button-small header-button">
+            Kết nối với tôi <span>↗</span>
+        </a>
+
+    </nav>
+</header>
+
+<main>
+
+    <!-- Hero -->
+    <section class="hero section container">
+        <div class="hero-content">
+
+            <div class="availability">
+                <span class="status-dot"></span>
+                Open to Internship Opportunities
+            </div>
+
+            <p class="eyebrow">HELLO, I'M</p>
+
+            <h1>
+                Nguyễn Vinh<br>
+                <span class="gradient-text">Thiện.</span>
+            </h1>
+
+            <h2>
+                Computer Science Student
+                <span class="accent">|</span>
+                Aspiring Software Engineer
+            </h2>
+
+            <p class="hero-description">
+                Tôi là sinh viên năm 3 ngành Khoa học Máy tính tại
+                Đại học Duy Tân. Tôi yêu thích lập trình, xây dựng
+                ứng dụng và không ngừng học hỏi để trở thành một
+                Software Engineer chuyên nghiệp.
+            </p>
+
+            <div class="hero-actions">
+                <a href="#projects" class="button">
+                    Khám phá dự án <span>↗</span>
+                </a>
+
+                <a href="cv.pdf" class="button button-outline"
+                   download="Nguyen-Vinh-Thien-CV.pdf">
+                    <span>↓</span> Tải CV
+                </a>
+            </div>
+
+            <div class="social-links">
+                <!-- Thay URL bằng tài khoản thật của bạn -->
+                <a href="https://github.com/vinhthienjet"
+                   target="_blank"
+                   rel="noopener noreferrer"
+                   aria-label="GitHub">
+                    GitHub ↗
+                </a>
+
+                <span class="social-divider"></span>
+
+                <a href="https://www.linkedin.com/"
+                   target="_blank"
+                   rel="noopener noreferrer"
+                   aria-label="LinkedIn">
+                    LinkedIn ↗
+                </a>
+
+                <span class="social-divider"></span>
+
+                <a href="#contact">Email ↗</a>
+            </div>
+
+        </div>
+
+        <div class="hero-visual">
+            <div class="visual-orbit orbit-one"></div>
+            <div class="visual-orbit orbit-two"></div>
+
+            <div class="code-card">
+                <div class="code-card-header">
+                    <div class="window-dots">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                    <span>developer.java</span>
+                </div>
+
+                <div class="code-content">
+                    <p><span class="code-purple">public class</span>
+                        <span class="code-yellow">Developer</span> {</p>
+
+                    <p class="indent">
+                        <span class="code-purple">String</span> name =
+                        <span class="code-green">"Thien"</span>;
+                    </p>
+
+                    <p class="indent">
+                        <span class="code-purple">String</span> role =
+                        <span class="code-green">"Software Engineer"</span>;
+                    </p>
+
+                    <p class="indent">
+                        <span class="code-purple">boolean</span> learning =
+                        <span class="code-blue">true</span>;
+                    </p>
+
+                    <p class="indent code-comment">
+                        // Always learning, always building.
+                    </p>
+
+                    <p>}</p>
+                </div>
+
+                <div class="code-card-footer">
+                    <span class="status-dot"></span>
+                    <span>Building something meaningful</span>
+                </div>
+            </div>
+
+            <div class="floating-tag tag-java">
+                <span>☕</span> Java
+            </div>
+
+            <div class="floating-tag tag-spring">
+                <span>🌱</span> Spring Boot
+            </div>
+
+            <div class="floating-tag tag-code">
+                <span>⌘</span> Clean Code
+            </div>
+        </div>
+    </section>
+
+    <!-- Quick information -->
+    <section class="stats-section container">
+        <div class="stat-item">
+            <span class="stat-number">03</span>
+            <span class="stat-label">University Year</span>
+        </div>
+
+        <div class="stat-item">
+            <span class="stat-number">Java</span>
+            <span class="stat-label">Main Language</span>
+        </div>
+
+        <div class="stat-item">
+            <span class="stat-number">MVC</span>
+            <span class="stat-label">Architecture</span>
+        </div>
+
+        <div class="stat-item">
+            <span class="stat-number">∞</span>
+            <span class="stat-label">Learning Mindset</span>
+        </div>
+    </section>
+
+    <!-- About -->
+    <section class="section container" id="about">
+        <div class="section-heading">
+            <p class="eyebrow">GET TO KNOW ME</p>
+            <h2>Về <span class="gradient-text">bản thân tôi</span></h2>
+            <p>Không ngừng học hỏi để tạo ra những sản phẩm có giá trị.</p>
+        </div>
+
+        <div class="about-grid">
+            <div class="about-card glass-card">
+                <div class="card-icon">🎓</div>
+                <h3>Học tập</h3>
+                <p>
+                    Sinh viên năm 3 ngành Computer Science tại
+                    Đại học Duy Tân, tập trung xây dựng nền tảng
+                    lập trình và phát triển phần mềm.
+                </p>
+            </div>
+
+            <div class="about-card glass-card">
+                <div class="card-icon">💻</div>
+                <h3>Phát triển phần mềm</h3>
+                <p>
+                    Quan tâm đến Java, lập trình hướng đối tượng,
+                    Spring Boot, cơ sở dữ liệu và cách xây dựng
+                    ứng dụng có cấu trúc rõ ràng.
+                </p>
+            </div>
+
+            <div class="about-card glass-card">
+                <div class="card-icon">🤝</div>
+                <h3>Làm việc nhóm</h3>
+                <p>
+                    Có tinh thần trách nhiệm, thân thiện,
+                    sẵn sàng chia sẻ kiến thức và phối hợp
+                    cùng các thành viên để hoàn thành mục tiêu.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills -->
+    <section class="section container" id="skills">
+        <div class="section-heading">
+            <p class="eyebrow">MY TOOLBOX</p>
+            <h2>Kỹ năng <span class="gradient-text">của tôi</span></h2>
+            <p>Các công nghệ tôi đang học và sử dụng trong dự án.</p>
+        </div>
+
+        <div class="skills-grid">
+
+            <article class="skill-card">
+                <span class="skill-icon java-icon">J</span>
+                <div>
+                    <h3>Java</h3>
+                    <p>OOP, Collections, MVC</p>
+                </div>
+                <span class="skill-category">Backend</span>
+            </article>
+
+            <article class="skill-card">
+                <span class="skill-icon spring-icon">S</span>
+                <div>
+                    <h3>Spring Boot</h3>
+                    <p>Spring MVC, REST API</p>
+                </div>
+                <span class="skill-category">Backend</span>
+            </article>
+
+            <article class="skill-card">
+                <span class="skill-icon html-icon">5</span>
+                <div>
+                    <h3>HTML & CSS</h3>
+                    <p>Semantic HTML, Responsive</p>
+                </div>
+                <span class="skill-category">Frontend</span>
+            </article>
+
+            <article class="skill-card">
+                <span class="skill-icon js-icon">JS</span>
+                <div>
+                    <h3>JavaScript</h3>
+                    <p>ES6+, DOM, Events</p>
+                </div>
+                <span class="skill-category">Frontend</span>
+            </article>
+
+            <article class="skill-card">
+                <span class="skill-icon python-icon">Py</span>
+                <div>
+                    <h3>Python</h3>
+                    <p>Programming, Networking</p>
+                </div>
+                <span class="skill-category">Language</span>
+            </article>
+
+            <article class="skill-card">
+                <span class="skill-icon sql-icon">DB</span>
+                <div>
+                    <h3>MySQL</h3>
+                    <p>SQL, Database Design</p>
+                </div>
+                <span class="skill-category">Database</span>
+            </article>
+
+            <article class="skill-card">
+                <span class="skill-icon git-icon">Git</span>
+                <div>
+                    <h3>Git & GitHub</h3>
+                    <p>Version Control, Branches</p>
+                </div>
+                <span class="skill-category">Tools</span>
+            </article>
+
+            <article class="skill-card">
+                <span class="skill-icon idea-icon">IDE</span>
+                <div>
+                    <h3>Problem Solving</h3>
+                    <p>Debugging, Logical Thinking</p>
+                </div>
+                <span class="skill-category">Core</span>
+            </article>
+
+        </div>
+    </section>
+
+    <!-- Projects -->
+    <section class="section container" id="projects">
+        <div class="section-heading">
+            <p class="eyebrow">SELECTED WORK</p>
+            <h2>Dự án <span class="gradient-text">nổi bật</span></h2>
+            <p>Một số dự án học tập và thực hành phát triển phần mềm.</p>
+        </div>
+
+        <div class="projects-grid">
+
+            <article class="project-card">
+                <div class="project-visual book-visual">
+                    <span class="project-emoji">📚</span>
+                    <span class="visual-label">E-COMMERCE</span>
+                </div>
+
+                <div class="project-body">
+                    <div class="project-topline">
+                        <span class="project-type">Web Application</span>
+                        <span class="project-number">01</span>
+                    </div>
+
+                    <h3>Online Book Reselling</h3>
+
+                    <p>
+                        Nền tảng mua bán sách cũ, hướng đến kết nối
+                        người mua và người bán, quản lý sản phẩm
+                        và xử lý đơn hàng.
+                    </p>
+
+                    <div class="tech-list">
+                        <span>Java</span>
+                        <span>Spring Boot</span>
+                        <span>MySQL</span>
+                        <span>Thymeleaf</span>
+                    </div>
+
+                    <!-- Thay # bằng link repository dự án thật -->
+                    <a class="project-link"
+                       href="https://github.com/vinhthienjet"
+                       target="_blank"
+                       rel="noopener noreferrer">
+                        Xem source code <span>↗</span>
+                    </a>
+                </div>
+            </article>
+
+            <article class="project-card">
+                <div class="project-visual japanese-visual">
+                    <span class="project-emoji">あ</span>
+                    <span class="visual-label">EDUCATION</span>
+                </div>
+
+                <div class="project-body">
+                    <div class="project-topline">
+                        <span class="project-type">Learning Platform</span>
+                        <span class="project-number">02</span>
+                    </div>
+
+                    <h3>Mirai Nihongo</h3>
+
+                    <p>
+                        Website học tiếng Nhật với chức năng
+                        quản lý bài học, từ vựng, cấp độ và
+                        hỗ trợ người học ôn tập kiến thức.
+                    </p>
+
+                    <div class="tech-list">
+                        <span>Java</span>
+                        <span>JSP</span>
+                        <span>Servlet</span>
+                        <span>MySQL</span>
+                    </div>
+
+                    <a class="project-link"
+                       href="https://github.com/vinhthienjet"
+                       target="_blank"
+                       rel="noopener noreferrer">
+                        Xem source code <span>↗</span>
+                    </a>
+                </div>
+            </article>
+
+            <article class="project-card">
+                <div class="project-visual portfolio-visual">
+                    <span class="project-emoji">&lt;/&gt;</span>
+                    <span class="visual-label">PERSONAL BRAND</span>
+                </div>
+
+                <div class="project-body">
+                    <div class="project-topline">
+                        <span class="project-type">Frontend</span>
+                        <span class="project-number">03</span>
+                    </div>
+
+                    <h3>Developer Portfolio</h3>
+
+                    <p>
+                        Website cá nhân giới thiệu bản thân,
+                        kỹ năng, dự án và thông tin liên hệ,
+                        được thiết kế để hiển thị tốt trên
+                        nhiều kích thước màn hình.
+                    </p>
+
+                    <div class="tech-list">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>JavaScript</span>
+                        <span>Vercel</span>
+                    </div>
+
+                    <a class="project-link" href="#home">
+                        Đang xem website <span>↗</span>
+                    </a>
+                </div>
+            </article>
+
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="section container" id="contact">
+        <div class="contact-wrapper">
+            <div class="contact-info">
+                <p class="eyebrow">LET'S CONNECT</p>
+
+                <h2>
+                    Cùng nhau tạo ra<br>
+                    <span class="gradient-text">điều tuyệt vời.</span>
+                </h2>
+
+                <p>
+                    Tôi luôn sẵn sàng kết nối với bạn bè,
+                    nhà tuyển dụng và những người có cùng
+                    đam mê công nghệ.
+                </p>
+
+                <a href="mailto:your-email@example.com"
+                   class="contact-email">
+                    your-email@example.com <span>↗</span>
+                </a>
+
+                <div class="contact-socials">
+                    <a href="https://github.com/vinhthienjet"
+                       target="_blank"
+                       rel="noopener noreferrer">GitHub ↗</a>
+
+                    <a href="https://www.linkedin.com/"
+                       target="_blank"
+                       rel="noopener noreferrer">LinkedIn ↗</a>
+                </div>
+            </div>
+
+            <form class="contact-form" id="contactForm">
+                <div class="form-heading">
+                    <h3>Gửi lời nhắn</h3>
+                    <p>Điền thông tin để chuẩn bị email liên hệ.</p>
+                </div>
+
+                <div class="form-group">
+                    <label for="name">Họ và tên</label>
+                    <input type="text"
+                           id="name"
+                           name="name"
+                           placeholder="Nguyễn Văn A"
+                           required
+                           maxlength="100">
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Email của bạn</label>
+                    <input type="email"
+                           id="email"
+                           name="email"
+                           placeholder="example@email.com"
+                           required
+                           maxlength="254">
+                </div>
+
+                <div class="form-group">
+                    <label for="message">Nội dung</label>
+                    <textarea id="message"
+                              name="message"
+                              rows="4"
+                              placeholder="Xin chào..."
+                              required
+                              maxlength="3000"></textarea>
+                </div>
+
+                <button type="submit" class="button submit-button">
+                    Chuẩn bị email <span>↗</span>
+                </button>
+
+                <p class="form-note" id="formNote" aria-live="polite">
+                    Biểu mẫu sẽ mở ứng dụng email trên thiết bị của bạn.
+                </p>
+            </form>
+        </div>
+    </section>
+
+</main>
+
+<!-- Footer -->
+<footer class="footer">
+    <div class="container footer-content">
+        <a href="#home" class="logo">
+            <span class="logo-icon">T</span>
+            <span>Thien<span class="accent">.</span></span>
+        </a>
+
+        <p>Designed & built by Nguyễn Vinh Thiện</p>
+
+        <a href="#home" class="back-to-top" aria-label="Lên đầu trang">
+            ↑
+        </a>
+    </div>
+
+    <div class="container copyright">
+        © <span id="currentYear"></span> Nguyễn Vinh Thiện.
+        Built with HTML, CSS & JavaScript.
+    </div>
+</footer>
+
+</body>
+</html>
